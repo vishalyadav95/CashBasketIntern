@@ -30,7 +30,7 @@ Based on the PHP Laravel (5.4) framework.
 
 2. Composer is required so download it from its official [website](https://getcomposer.org/) according your system
 
-3. Navigate to the project directory ~/Quiz-Analyzer/
+3. Navigate to the project directory ~/dir_name/
 
 4. Use `composer install` to install Larvel and its dependencies   
 
@@ -50,7 +50,7 @@ Based on the PHP Laravel (5.4) framework.
 8. Use `php artisan migrate` to setup database
 
 9. Use `php artisan serve`  to run the server in development mode.
-  - for the production make the apache server point to ~/<dir name>/public  
+  - for the production make the apache server point to ~/dir_name/public  
 
 ## Instruction to run the application:
   Will be updated soon
