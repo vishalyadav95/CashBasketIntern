@@ -42,7 +42,7 @@ Based on the PHP Laravel (5.4) framework.
          DB_PORT=3306
          DB_DATABASE=homestead
          DB_USERNAME=homestead
-         DB_PASSWORD=secret `  
+         DB_PASSWORD=secret`  
 
 
 7. Use `php artisan key:generate` to generate the security key
