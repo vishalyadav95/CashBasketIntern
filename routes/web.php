@@ -25,3 +25,10 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('auth/facebook', 'Auth\RegisterController@redirectToProvider');
 Route::get('auth/facebook/callback', 'Auth\RegisterController@handleProviderCallback');
+
+//-------------------------------------------------------------------------
+//only authorized routes
+
+Route::get('/{tour}/{year}/questions','QuestionController@QuestionList');
+
+Route::get('/question/{id}','QuestionController@DisplayQuestion');
