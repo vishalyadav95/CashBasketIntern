@@ -16,7 +16,7 @@ class Questions extends Migration
         //
         Schema::create('questions', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('match_id')->references('id')->on('matchs');
+            $table->string('match_id')->references('id')->on('matches');
             $table->string('question');
             $table->string('options');
             $table->integer('points')->default(0);
