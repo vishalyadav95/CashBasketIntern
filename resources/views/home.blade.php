@@ -9,6 +9,7 @@
 
                 <div class="panel-body">
                     You are logged in!
+                    click <a href="{{ url('/IPL/2017'.'/questions') }}">here</a>
                 </div>
             </div>
         </div>
