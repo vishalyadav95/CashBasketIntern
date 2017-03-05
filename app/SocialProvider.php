@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class SocialProvider extends Model
 {
     protected $fillable = ['provider_id','provider'];
-	
+
 	function user()
 	{
-		return $thi->belongsTo(User::class);
+		return $this->belongsTo(User::class);
 	}
 }
