@@ -13,11 +13,12 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-       \DB::table('users')->delete();
-		User::create([
+       //DB::table('users')->delete();
+		 User::create([
 		'name' => 'cash',
-		'email' => 'admin@cashbasket.co.in',
-		'password' => bcrypt('admin')
+		'email' => 'admin@admin.admin',
+		'password' => bcrypt('admin'),
+    'points' => 0,
 		]);
     }
 }
